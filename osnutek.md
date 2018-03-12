@@ -6,5 +6,5 @@ Osnutek našega projekta pri predmetu Podatkovno rudarjenje 2018
 | Ime in priimek | Vpisna številka |
 | -------------- | --------------- |
 | Nejc Stopar | 63160290 |
-| Miloš Kostadinovski | 6316.... |
-| Miha Debenjak | 6316.... |
+| Miloš Kostadinovski | 63160172 |
+| Miha Debenjak | 63160407 |
