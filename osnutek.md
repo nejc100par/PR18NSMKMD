@@ -17,7 +17,6 @@ Podatke za projektno nalogo smo našli na spletnem portalu [podatki.gov.si](http
 - Vpliv alkoholiziranosti v prometnih nesrečah
 - Povezava med časovnimi obdobji in številom nesreč
 - Analiza poškodb in smrtnih nesreč
-- 
 
 
 
