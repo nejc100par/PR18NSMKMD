@@ -48,4 +48,10 @@ dnevi_sum.columns = ["dan_v_tednu", "st_smrt", "st_telesna_poskodba", "st_materi
 dnevi_max=dnevi_sum.iloc[dnevi_sum["skupaj"].idxmax()]["dan_v_tednu"]
 dnevi_sum = dnevi_sum.sort_values(by="skupaj", ascending=[False])
 ```
+
+![nesrece_po_dnevih](images/dnevi.png)
+
 Na podoben način smo pridobili še podatke o številu prometnih nesreč skozi leta, alkoholiziranisti voznikov vpletenih v prometne nesreče, porazdelitvi prometnih nesreč po urah.
+![nesrece_skozi_leta](images/smrt.png)
+![vpliv_alkohola](images/alkohol.png)
+![nesrece_po_urah](images/ure.png)
