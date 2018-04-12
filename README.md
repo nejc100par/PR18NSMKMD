@@ -52,6 +52,15 @@ dnevi_sum = dnevi_sum.sort_values(by="skupaj", ascending=[False])
 ![nesrece_po_dnevih](images/dnevi.png)
 
 Na podoben način smo pridobili še podatke o številu prometnih nesreč skozi leta, alkoholiziranisti voznikov vpletenih v prometne nesreče, porazdelitvi prometnih nesreč po urah.
+
 ![nesrece_skozi_leta](images/smrt.png)
+
+Iz grafa je lepo razvidno, da po letu 2007 število nesreč s smrtnim izidom drastično pade. 
+
 ![vpliv_alkohola](images/alkohol.png)
+
+Presenetil nas je podatek, da so na drugem mestu na grafu alkoholiziranosti kolesarji.
+
 ![nesrece_po_urah](images/ure.png)
+
+Največ prometnih nesreč se po pričakovanjih zgodi ob 15h, saj je takrat na cestah tudi največ prometa.
