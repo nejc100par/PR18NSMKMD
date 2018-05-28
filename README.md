@@ -37,17 +37,6 @@ alkohol["Stopnje alkoholiziranosti 0,80 in več"] = alkohol["Stopnje alkoholizir
 ```
 
 Potem smo se lotili iskanja zanimivih podatkov in njihove vizualizacije. Izračunali smo število vrst nesreč po dnevih:
-```python
-dnevi_sum = dnevi.groupby(['Dan v tednu'], as_index = False).agg({'Prometne nesreče s smrtnim izidom': [np.sum],
-                                                                  'Prometne nesreče s telesno poškodbo': [np.sum],
-                                                                  'Prometne nesreče z materialno škodo': [np.sum],
-                                                                  'Prometne nesreče - SKUPAJ': [np.sum]
-                                                                 }) 
-
-dnevi_sum.columns = ["dan_v_tednu", "st_smrt", "st_telesna_poskodba", "st_materialna_skoda", "skupaj"] 
-dnevi_max=dnevi_sum.iloc[dnevi_sum["skupaj"].idxmax()]["dan_v_tednu"]
-dnevi_sum = dnevi_sum.sort_values(by="skupaj", ascending=[False])
-```
 
 ![nesrece_po_dnevih](images/dnevi.png)
 
